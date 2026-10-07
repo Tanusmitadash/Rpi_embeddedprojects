@@ -1,0 +1,16 @@
+             DIGITAL INPUTS
+                    │
+       ┌────────────┼────────────┐
+       ▼            ▼            ▼
+ Entry Sensor   Chamber       Exit Sensor
+       │         Sensor           │
+       └────────────┬─────────────┘
+                    ▼
+              Raspberry Pi
+                    │
+              Python Logic
+                    │
+       ┌────────────┼────────────┐
+       ▼            ▼            ▼
+ Illumination   Camera Trigger  Motor Enable
+   OUTPUT          OUTPUT         OUTPUT
